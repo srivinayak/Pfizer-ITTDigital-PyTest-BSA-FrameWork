@@ -1,0 +1,66 @@
+{
+    "main_url": "preprod_url",
+    
+    "os": "win",
+    
+    "main_webdriver": "webdriver3",
+
+    "main_dimension_x": "1080",
+
+    "main_dimension_y": "800",
+
+    "BROWSERSTACK_USERNAME": "",
+
+    "BROWSERSTACK_ACCESS_KEY": "",
+    
+    "test_host_environment": [
+        {
+            "mac": [
+                        {
+                        
+                            "webdriver1": "./webdrivers/mac/chromedriver"
+                        },
+                        {
+                            "webdriver2": "./webdrivers/mac/geckodriver"
+                        },
+                        {
+                            "webdriver3": "./webdrivers/mac/safari"
+                        }
+
+            ]
+        },
+
+        {
+            "win": [
+                        {
+                            "webdriver1": "./webdrivers/win/chromedriver.exe"
+                        },
+                        {
+                            "webdriver2": "./webdrivers/win/geckodriver.exe"
+                        },
+                        {
+                            "webdriver3": "./webdrivers/win/edge.exe"
+                        },
+                        {
+                            "webdriver4": "./webdrivers/win/ie11.exe"
+                        }
+
+            ]
+        },
+
+        {
+            "linux": [
+                        {
+                        
+                            "webdriver1": "./webdrivers/linux/chromedriver"
+                        },
+                        {
+                            "webdriver2": "./webdrivers/linux/geckodriver"
+                        }
+            ]
+        }
+
+    ]
+    
+
+}

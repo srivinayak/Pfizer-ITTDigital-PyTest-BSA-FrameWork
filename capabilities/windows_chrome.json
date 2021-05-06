@@ -1,0 +1,9 @@
+{
+
+  "os" : "Windows",
+  "os_version" : "10",
+  "browser" : "Chrome",
+  "browser_version" : "80",
+  "name" : "Remote WebDriver Test"
+
+}

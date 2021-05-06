@@ -1,0 +1,9 @@
+{
+
+  "browserName": "iPhone",
+  "device": "iPhone XS",
+  "realMobile": "true",
+  "os_version": "14",
+  "name" : "Remote WebDriver Test"
+
+}
